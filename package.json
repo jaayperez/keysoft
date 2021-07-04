@@ -1,0 +1,36 @@
+{
+  "name": "keysoft",
+  "version": "1.0.0",
+  "description": "Secure, random password generator app using Node.js and Express.",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "got": "^11.8.2",
+    "tape": "^5.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/jaayperez/keysoft/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaayperez/keysoft.git"
+  },
+  "author": "Justin Perez",
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jaayperez/keysoft"
+}
