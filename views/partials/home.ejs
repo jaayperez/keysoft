@@ -1,0 +1,42 @@
+<!-- views/partials/home.ejs -->
+<section id="home">
+  <div class="container">
+    <div class="row">
+      <div id="homescreen" class="mx-auto col-12">
+        <div id="logo">
+          <a href="#home">
+            <img src="/images/logo.png" alt="Keysoft logo">
+          </a>
+        </div>
+        <div id="logo_header">
+          <h5>Smart. Simple. Secure.</h5>
+        </div>
+        <div class="m-4 p-3" id="slogan">
+          <h1>Use our online password generator to instantly create a secure, random password.</h1>
+        </div>
+        <div class="copy-text col-sm-12 col-md-6 mx-auto mt-3 mb-3 text-center">
+          <label for="p9"></label>
+          <input class="generate-input text" value="Your new password" type='text' id='p9' />
+          <button><i class="fa fa-clone"></i></button>
+        </div>
+        <input type="button" value="Copy Password" class="cta2 btn draw-border" id="copy" onclick="copyText();">
+        <form id="passwordGeneratorForm" class="form text-center d-inline-block">
+          <div>
+            <input class="mx-auto cta2 btn draw-border" type='button' value='Generate Now' onclick='document.getElementById("p9").value = generatePassword()'>
+          </div>
+        </form>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div id="video_pattern"></div>
+  <div id="video-fallback"></div>
+  <div id="video-container">
+    <video autoplay muted loop playsinline class="fillWidth" width="896" height="504">
+      <source src="https://watch.videodelivery.net/64540e592bbfdefd51d853999fa97f3d" type="video/mp4" />
+      <source src="/video/security-system.webm" type="video/webm" />
+      Your browser does not support the video tag. I suggest you upgrade your browser.
+    </video>
+  </div>
+  <!-- end video-container -->
+</section>
