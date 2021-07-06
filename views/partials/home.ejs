@@ -4,7 +4,7 @@
     <div class="row">
       <div id="homescreen" class="mx-auto col-12">
         <div id="logo">
-          <a href="#home">
+          <a href="/">
             <img src="/images/logo.png" alt="Keysoft logo">
           </a>
         </div>
@@ -14,12 +14,12 @@
         <div class="m-4 p-3" id="slogan">
           <h1>Use our online password generator to instantly create a secure, random password.</h1>
         </div>
-        <div class="copy-text col-sm-12 col-md-6 mx-auto mt-3 mb-3 text-center">
+        <div class="copyToClipboard col-sm-12 col-md-6 mx-auto mt-3 mb-3 text-center">
           <label for="p9"></label>
           <input class="generate-input text" value="Your new password" type='text' id='p9' />
           <button><i class="fa fa-clone"></i></button>
         </div>
-        <input type="button" value="Copy Password" class="cta2 btn draw-border" id="copy" onclick="copyText();">
+        <input type="button" value="Copy Password" class="cta2 btn draw-border" onclick="copyPassword();">
         <form id="passwordGeneratorForm" class="form text-center d-inline-block">
           <div>
             <input class="mx-auto cta2 btn draw-border" type='button' value='Generate Now' onclick='document.getElementById("p9").value = generatePassword()'>
