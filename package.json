@@ -15,7 +15,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "got": "^11.8.2",
+    "got": "^11.8.5",
     "tape": "^5.2.2"
   },
   "bugs": {
